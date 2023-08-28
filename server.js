@@ -7,7 +7,7 @@ const fs = require("fs");
 
 // MongoDB
 mongoose
-  .connect("mongodb+srv://Nebula:12345@cluster0.mlfyqxq.mongodb.net/?retryWrites=true&w=majorit", {
+  .connect("mongodb+srv://Nebula:12345@cluster0.mlfyqxq.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
